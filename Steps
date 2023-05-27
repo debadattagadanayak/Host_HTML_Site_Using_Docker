@@ -5,15 +5,14 @@
 3. Create a new file called Dockerfile (without any file extension) in the project directory.
 4. Open the Dockerfile in a text editor and add the following content:
 
-<pre>
-```
+``` 
 # Use an appropriate base image
 FROM nginx:latest
 
 # Copy your index.html file to the nginx HTML directory
 COPY index.html /usr/share/nginx/html/
 ```
-</pre>
+
 
 5. Build the Docker image by running the following command:
 docker build -t my-web-app .
@@ -22,4 +21,16 @@ docker build -t my-web-app .
 docker run -d -p 80:80 my-web-app
 
 9. Open a web browser and visit http://localhost to see your index.html file being served by the Docker container.
+
+## Code
+
+Inline `code`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
 
