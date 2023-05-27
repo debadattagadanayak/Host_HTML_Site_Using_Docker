@@ -34,3 +34,4 @@ docker run -d -p 80:80 my-web-app
 ```
 
 + Open a web browser and visit http://localhost to see your index.html file being served by the Docker container.
++ If you are using cloud instances then go to http://<public_ip_Of_the_instance>
